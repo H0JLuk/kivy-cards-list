@@ -3,13 +3,8 @@ from kivy.lang import Builder
 
 from kivy.uix.screenmanager import ScreenManager, Screen
 from kivy.uix.boxlayout import BoxLayout
-from kivy.uix.image import Image
-from kivy.uix.label import Label
-from kivy.uix.widget import Widget
-from kivy.uix.recycleview import RecycleView
 
-from kivy.properties import ObjectProperty, StringProperty
-from kivy.clock import Clock
+from kivy.properties import StringProperty
 from kivy.storage.jsonstore import JsonStore
 
 PRODUCTS_DATA_FILE_NAME = 'card_data.json'
